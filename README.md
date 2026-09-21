@@ -8,7 +8,7 @@ This repository provides the training, functional reference, and verification fi
 - `rr_cnn_functional_reference.sv`: SystemVerilog functional CNN reference
 - `testbench_flatten.sv`: SystemVerilog verification testbench
 
-The network uses 20 R-R intervals as input and performs binary classification through two 1-D convolution layers followed by pooling and a fully connected layer.
+The network uses 20 R-R intervals as input and performs binary classification through convolution layers followed by pooling and a fully connected layer.
 
 The provided SystemVerilog code is a functional reference model for layer-level and numerical verification, and does not disclose the implementation-specific microarchitecture of the on-chip CNN accelerator.
 
